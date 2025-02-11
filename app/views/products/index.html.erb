@@ -1,1 +1,6 @@
 <h1>hello rails root page</h1>
+<div id="products">
+    <% @products.each do |product|%>
+        <div><%= product.name%></div>
+    <% end %>
+</div>
